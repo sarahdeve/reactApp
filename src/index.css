@@ -1,0 +1,134 @@
+.sellon {
+    position: absolute;
+    top: 0;
+}
+
+.navbar-inverse {
+    background-color: #203050 !important;
+    /* background-color: #A2BDEE !important; */
+    position: -webkit-sticky !important;
+    top: 0 !important;
+    /* position: absolute; */
+    /* position: fixed; */
+    position: sticky;
+}
+
+.footer {
+    bottom: 0 !important;
+    background-color: #203050 !important;
+    width: 100%;
+    position: fixed;
+  }
+
+/* #section1 {color: #fff; background-color: #1E88E5;} */
+/* #section2 {color: #fff; background-color: #673ab7;} */
+#section3 {color: #fff; background-color: #ff9800;}
+#section41 {color: #fff; background-color: #00bcd4;}
+#section42 {color: #fff; background-color: #009688;}
+
+.firstsection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondsection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .Zaraproducts {
+    flex: 0 1 15rem;
+    margin: 1rem;
+    height: 30rem;
+    border-bottom: 0.1rem #c0c0c0 solid;
+    list-style-type: none;
+    padding: 0;
+  } */
+  
+  .product {
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .product-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .product-image {
+    max-width: 20rem;
+    max-height: 40rem;
+  }
+  
+  .product-rating {
+    margin-bottom: 1rem;
+  }
+
+   .details {
+    padding: 1rem;
+    /* justify-content: space-between; */
+    /* flex-direction: column; */
+  }
+
+  .details-image {
+    /* flex: 2 1 80rem; */
+    /* padding: 2rem; */
+  }
+  
+  .details-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .details-info {
+    /* flex-wrap: wrap; */
+    padding-top: 2rem;
+    /* flex: 1 1 30rem; */
+  }
+  
+  .details-action {
+    flex: 1 1 30rem;
+  }
+  
+  .details-info,
+  .details-action  {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .details-info,
+  .details-action  {
+    margin-bottom: 1rem;
+  }
+  
+  .back-home {
+    padding: 1rem;
+  }
+  
+   .details-action {
+    border: 0.5rem #808080 solid;
+    border-radius: 0.5rem;
+    background-color: #f8f8f8;
+    padding: 1rem;
+  }
+  
+  .details-action ul li:last-child {
+    display: flex;
+    flex-direction: column;
+  } 
+
+  ul.nav-pills {
+    top: 200px;
+    /* left: 50px !important; */
+    position: fixed;
+}
+
